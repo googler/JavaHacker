@@ -10,7 +10,7 @@ public class Test {
 		RunDisk.index();
 		List<String> list = RunDisk.search("scala", "DIR");
 		for (String str : list) {
-			System.out.println("hash:" + str.hashCode() + " [==] " + str);
+			System.out.println("hash is :" + str.hashCode() + " [==] " + str);
 		}
 	}
 }
